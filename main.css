@@ -1,0 +1,28 @@
+
+div p{
+	border: green 2px dashed;
+	background-color: white;
+	text-align: center;
+}
+
+div{
+	width:420px;
+	height:100px;
+	padding:40px 5px 100px 60px;
+	background-color:brown;
+}
+
+div>div{
+	width:280px;
+	height:60px;
+	padding:40px 20px 70px 40px;
+	background-color:purple;
+}
+
+div>div>div{
+	width:130px;
+	height:20px;
+	padding:20px 60px 30.5px; /* El margin izquierdo no se pone porque es el mismo que el de la derecha y se repite de 60px */
+	background-color: yellow;		
+}
+
